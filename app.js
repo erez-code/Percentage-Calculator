@@ -11,7 +11,7 @@ function startup() {
 		else {
 //run calculation
 	var myResault1 = $("#wholeForCalc1").val() * $("#percentForCalc1").val() /100;
-	$("#displayResault1").text("Resault: The part is " + myResault1 +".")}
+	$("#displayResault1").html("Resault: The part is " + myResault1 +"." + "</br>"  + myResault1 + " is " + $("#percentForCalc1").val() + "% of " + $("#wholeForCalc1").val()+". ")}
 	});
 
 //second calculator
@@ -23,7 +23,7 @@ function startup() {
 		else {
 //run calculation	
 	var myResault2 = $("#partForCalc2").val() *100 / $("#wholeForCalc2").val();
-	$("#displayResault2").text("Resault: The percentage is " + myResault2 + "%.")}
+	$("#displayResault2").html("Resault: The percentage is " + myResault2 + "%." + "</br>"  + $("#partForCalc2").val() + " is " + myResault2 + "% of " + $("#wholeForCalc2").val()+". ")}
 	});
 
 //third calculator
@@ -35,7 +35,7 @@ function startup() {
 		else {
 //run calculation
 	var myResault3 = $("#partForCalc3").val() *100 / $("#percentForCalc3").val();
-	$("#displayResault3").text("Resault: The whole is " + myResault3 +".")}
+	$("#displayResault3").html("Resault: The whole is " + myResault3 +"." + "</br>"  + $("#partForCalc3").val() + " is " + $("#percentForCalc3").val() + "% of " + myResault3+". ")}
 	});
 }
 
