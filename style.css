@@ -1,23 +1,36 @@
-html {
-    overflow: hidden;
-    height: 100%;
+#container {
+	min-width: 300px;
+	max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-body {
-	background-image: linear-gradient(to right, rgb(211, 248, 255), white););
-	background-color: blue;
-	font-family: Roboto;
-	height: 100%;
-    overflow: hidden;
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
+#container > div {
+	border: 1px solid black;
+	background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top:50px;
+    height: 170px;
+
 }
+
+#container > div > span {
+	display:block;
+}
+/**/
+
 
 #logo {
-	border-left: solid black 1px;
-    padding:0px 0px 0px 10px;
+	border-right: solid black 1px;
+    padding:0px 10px 0px 0px;
 }
 
+#resaults {
+	font-weight: bold;
+    margin-top: 5px;
+}
 h1 {
 	color: black;
 	background-color: white;
@@ -27,75 +40,40 @@ h1 {
     border-bottom: 1px solid lightgray;	
 }
 
-li {
+h3 {
 	color: black;
-	padding: 0 0 10px 0;
-    margin:0px 0px 0px 20%;
-	font-size: 120%;
+	background-color: white;
+	text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding: 15px 0px 0px 0px;
+    border-bottom: 1px solid lightgray;	
 }
 
-#plane1 {
-	color: rgb(181, 51, 0);
-}
-
-#plane2 {
-	color: rgb(111, 30, 252);
-}
-
-#plane3 {
-	color: #4A235A;
-}
-
-#plane4 {
-	color: #F1C40F;
+button {
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 2px;
 }
 
 
-#youtubeSong {
-	margin-top: 25px;
-	border: 3px solid black;
-	background-color: black;
+body {
+	background-color: rgb(234, 236, 239);
+	font-family: Raleway;
+	height: 100%;
+    overflow: auto;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
 
 }
 
-#jetsOverTheSide {
-	color: blue;
-	padding-right: 3px;
-	margin-left: 5px;
-}
-.planeTitle {
-	font-size: 12px;
-	color: gray;
-	border: solid gray 1px;
-	padding-right: 3px;
-	margin-left: 5px;
-	opacity: 0.8;
-}
-
-hr {
-	margin-top: 50px;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-#allplanes {
-	font-size: 250%;
-	padding: 25px 0 25px 10px;
-}
-
-div {
-	padding: 0 0 20px 10px;
-}
 #pagebottom {
 	color: black;
 	height: 50px;
 	background-color: white;
 	text-align: center;
-    margin:0px 0px 0px 0px;
-    padding: 15px 0px 0px 0px;
+    margin:150px 0px 0px 0px;
+    padding: 15px 0px 15px 0px;
     border-top: 1px solid lightgray;
-    position: absolute;
     bottom: 0px;
     width: 100%;
- }
+}
