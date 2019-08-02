@@ -1,93 +1,87 @@
 #container {
-	min-width: 300px;
-	max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+  min-width: 300px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #container > div {
-	border: 1px solid black;
-	background-color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    margin-top: 50px;
-    height: 170px;
-
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  height: 170px;
 }
 
 #container > div > span {
-	display:block;
+  display: block;
 }
 /**/
 
-
 #logo {
-	border-right: solid black 1px;
-    padding:0px 10px 0px 0px;
+  border-right: solid black 1px;
+  padding: 0px 10px 0px 0px;
 }
 
-#resaults {
-	font-weight: bold;
-    margin-top: 5px;
-    color: purple;
+#results {
+  font-weight: bold;
+  margin-top: 5px;
+  color: purple;
 }
 h1 {
-	color: black;
-	background-color: white;
-	text-align: center;
-    margin: 0px 0px 10px 0px;
-    padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid lightgray;	
+  color: black;
+  background-color: white;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+  padding: 15px 0px 10px 0px;
+  border-bottom: 1px solid lightgray;
 }
 
 h3 {
-	color: black;
-	background-color: white;
-	text-align: center;
-    margin: 0px 0px 20px 0px;
-    padding: 15px 0px 0px 0px;
-    border-bottom: 1px solid lightgray;	
+  color: black;
+  background-color: white;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+  padding: 15px 0px 0px 0px;
+  border-bottom: 1px solid lightgray;
 }
 
 button {
-    cursor: pointer;
-    font-size: 16px;
-    margin: 0 2px;
-/*
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 2px;
+  /*
     box-shadow:
     0 0 0 1px hsl(117, 100%, 85%),
     0 0 0 2px hsl(117, 100%, 90%);*/
 }
 
-
 body {
-	background-color: rgb(234, 236, 239);
-	font-family: Raleway;
-	height: 100%;
-    overflow: auto;
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
-
+  background-color: rgb(234, 236, 239);
+  font-family: Raleway;
+  height: 100%;
+  overflow: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
-
 #fortext {
-
-    width: 100%;
-    height: 100%;
-    resize: none;
-    margin-top: 6px;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  margin-top: 6px;
 }
 
 #pagebottom {
-	color: black;
-	height: 50px;
-	background-color: white;
-	text-align: center;
-    margin:50px 0px 0px 0px;
-    padding: 15px 0px 15px 0px;
-    border-top: 1px solid lightgray;
-    bottom: 0px;
-    width: 100%;
+  color: black;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  padding: 15px 0px 15px 0px;
+  border-top: 1px solid lightgray;
+  bottom: 0px;
+  width: 100%;
 }
